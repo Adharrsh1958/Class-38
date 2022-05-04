@@ -8,10 +8,10 @@ var track, allPlayers;
 var cars = [];
 
 function preload() {
-  backgroundImage = loadImage("./assets/background.png");
-  car1_Img = loadImage("assets/car1.png");
-  car2_Img = loadImage("assets/car2.png");
-  track = loadImage("/assets/track.jpg");
+  backgroundImage = loadImage("../assets/background.png");
+  car1_Img = loadImage("../assets/car1.png");
+  car2_Img = loadImage("../assets/car2.png");
+  track = loadImage("../assets/track.jpg");
 }
 
 function setup() {
